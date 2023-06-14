@@ -13,7 +13,7 @@ for x in variable: # x is determined by all the values in the variable list. If 
     waited_times = []
     distances_run = []
 
-    for j in range(10000):
+    for j in range(10000): # This is a Monte Carlo simulation, where multiple randomized experiences are run and metrics are averaged in the end.
 
         passenger_loc = -50 # Passenger's initial distance to the stop in meters.
 
